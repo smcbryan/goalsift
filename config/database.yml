@@ -5,3 +5,10 @@ development:
   password: 
   database: goalsift_development
   socket: /tmp/mysql.sock
+production:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: 
+  database: goalsift_production
+  socket: /tmp/mysql.sock
